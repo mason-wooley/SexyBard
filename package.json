@@ -1,0 +1,27 @@
+{
+  "name": "sexybard",
+  "version": "1.0.0",
+  "description": "A Discord bot for controlling music locally.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mason Wooley",
+  "license": "ISC",
+  "devDependencies": {
+    "discord-interactions": "^3.2.0",
+    "electron": "^21.2.3",
+    "ngrok": "^4.3.3",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.13.0",
+    "axios": "^1.1.3",
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "libsodium-wrappers": "^0.7.10",
+    "node-fetch": "^3.3.0"
+  }
+}
